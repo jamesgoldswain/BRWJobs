@@ -1,1 +1,4 @@
 # BRWJobs
+
+todos:
+* implement db
