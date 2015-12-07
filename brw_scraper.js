@@ -1,4 +1,7 @@
-var request = require("request"),
+var request =  
+    require("request"),
+    fs = require('fs'),
+    jsonfile = require('jsonfile'),
 	cheerio = require("cheerio"),
 	url = "http://www.greatplacetowork.com.au/best-companies/best-places-to-work-in-australia-100-or-more-employees";
 
@@ -21,6 +24,14 @@ request(url, function (error, response, body) {
       });
       // save to db
 		console.log(companies);
+        
+        var file = 'data/companies.json'
+        var obj = {companies : companies}
+        
+        jsonfile.writeFile(file, obj, function (err) {
+            console.error(err)
+        })
+
 	} else {
 		console.log("We’ve encountered an error: " + error);
 	}
