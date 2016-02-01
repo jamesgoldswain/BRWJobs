@@ -19,7 +19,7 @@ request(url, function (error, response, body) {
 
         var companyDetails = company.next('.tr-secondary').children('td.item-details').children('div.well-details').children().find('.details-col-b').find('a > span').text();
         if (companyDetails != ''){
-            companies.push( { position: companyPosition, name : companyName, category : companyCategory, url : companyDetails});
+            companies.push( { position: companyPosition, name : companyName, category : companyCategory, url : companyDetails, date : new Date().toString()});
         }
       });
       // save to db
