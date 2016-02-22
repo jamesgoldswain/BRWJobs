@@ -1,0 +1,12 @@
+company
+country         Australia
+city            Sydney
+name            Atlassian
+url             https://www.atlassian.com/company/careers/all-jobs?location=Sydney
+id              1
+
+job
+title           Leadership Development Manager
+sector          Engineering
+basis           Full time
+url             https://www.smartrecruiters.com/Atlassian/89053555
