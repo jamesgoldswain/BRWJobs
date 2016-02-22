@@ -1,0 +1,19 @@
+MongoDB shell version: 3.0.9
+connecting to: dbs
+Welcome to the MongoDB shell.
+For interactive help, type "help".
+For more comprehensive documentation, see
+	http://docs.mongodb.org/
+Questions? Try the support group
+	http://groups.google.com/group/mongodb-user
+Server has startup warnings: 
+2016-02-22T16:44:08.456+0800 I CONTROL  [initandlisten] 
+2016-02-22T16:44:08.456+0800 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2016-02-22T16:44:08.456+0800 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2016-02-22T16:44:08.456+0800 I CONTROL  [initandlisten] 
+2016-02-22T16:44:08.456+0800 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2016-02-22T16:44:08.456+0800 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2016-02-22T16:44:08.456+0800 I CONTROL  [initandlisten] 
+> m`
+2016-02-22T19:19:25.704+0800 E QUERY    SyntaxError: Unexpected token ILLEGAL
+bye
